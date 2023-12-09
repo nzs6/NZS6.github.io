@@ -1,0 +1,13 @@
+.top
+{
+	width: 100vw;
+	height: 100vh;
+	background-image: url(e8cc311fb4e9712e0bf6e21134434a55_4657993733615341153.jpg);
+	background-size: cover;
+}
+.top_nav
+{
+	width: 100vw;
+	height: 100px;
+	background: rgba(0,0,0,0.3);
+}
