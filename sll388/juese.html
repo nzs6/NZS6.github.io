@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>原神网页</title>
+  <style>
+    body {
+      font-family: "微软雅黑", sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #11998e;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      color: white;
+      margin: 0;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-around;
+      background-color: #3498db;
+      padding: 1rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 0.5rem;
+    }
+
+    nav a:hover {
+      background-color: #2980b9;
+    }
+
+    main {
+      padding: 2rem;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .characters {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .character {
+      width: 300px;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    .character img {
+      border-radius: 10px;
+    }
+
+    .character h3 {
+      margin: 1rem 0;
+    }
+
+    .character p {
+      margin: 0;
+    }
+
+    @media (max-width: 768px) {
+      .character {
+        width: 50%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>原神网页</h1>
+  </header>
+  <nav>
+    <a href="yuanshen.html">首页</a>
+    <a href="zixun.html">游戏资讯</a>
+    <a href="juese.html">角色</a>
+	<a href="dimao.html">地貌风景</a>
+    
+  </nav>
+  </body>
+  
+  <body>
+  <main>
+    <section class="characters">
+      <div class="character">
+        <img src="img/yuanshen/OIP-C.jpg" alt="刻晴">
+        <h3>刻晴</h3>
+        <p>职位：璃月商会副会长</p>
+        <p>元素：岩</p>
+		
+      </div>
+      <div class="character">
+        <img src="img/yuanshen/OIP-C%20(2).jpg" alt="迪卢克">
+        <h3>迪卢克</h3>
+        <p>职位：蒙德酒馆老板</p>
+        <p>元素：火</p>
+		
+      </div>
+      <div class="character">
+        <img src="img/yuanshen/qin.jpg" alt="琴">
+        <h3>琴</h3>
+        <p>职位：乐团指挥</p>
+        <p>元素：风</p>
+		
+      </div>
+	  <div class="character">
+	    <img src="img/yuanshen/ying.jpg" alt="影">
+	    <h3>影</h3>
+	    <p>职位：稻妻幕府的最高主宰</p>
+	    <p>元素：雷</p>
+		
+	  </div>
+    </section>
+  </main>
+</body>
+</html>
